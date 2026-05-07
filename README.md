@@ -11,7 +11,7 @@ Note: Don’t process a whole feature-length film at once. Process by chapter, o
 ### 2) Pre-clean (critical)
 - Deinterlace (_BWDIF_, _FFmpeg_  or _Handbrake_)
 - Apply light temporal denoise with _hqdn3d_
-- -OR- _VapourSynth_ temporal filtering (don’t overdo it)  
+- -OR- _[VapourSynth](https://github.com/kodxana/VapourSynthColab)_ temporal filtering (don’t overdo it)  
 _*AI models love to interpret MPEG mosquito noise as “detail”_
 
 ### 3) Upscale (structure first)
